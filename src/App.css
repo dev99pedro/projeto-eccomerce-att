@@ -6,6 +6,11 @@ body {
 
 }
 
-body {
-  background-color: #C1D2BB;
+@font-face {
+  font-family: under;
+  src: url('../public/Under\ Station.ttf')
+}
+
+.under {
+  font-family: under;
 }

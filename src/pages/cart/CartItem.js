@@ -18,7 +18,7 @@ const CartItem = ({ data }) => {
                     <h2 className='cart-nome'>
                         {productName}
                     </h2>
-                    <span>
+                    <span className='price'>
                         ${price}
                     </span>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>

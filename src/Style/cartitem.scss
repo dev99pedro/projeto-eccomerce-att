@@ -1,3 +1,5 @@
+@import '../Style/variable.scss';
+
 .cart-container {
     display: flex;
     justify-content: center;
@@ -11,6 +13,8 @@
         width: 700px;
         display: flex;
         gap: 20px;
+        background-color: #F2EAD3;
+
 
 
         .cart-data {
@@ -22,11 +26,16 @@
 
 
             .cart-nome {
-                font-size: 40px;
+                font-size: 35px;
+                font-weight: 600;
+                line-height: 30px;
+                font-style: italic;
             }
 
             span {
-                font-size: 40px;
+                font-size: 28px;
+                color: red;
+                font-style: italic;
             }
         }
     }
@@ -52,16 +61,30 @@
         text-align: center;
         font-size: 15px;
         background-color: #ffffff;
+        border: none;
     }
 
-    
+
+}
+
+
+
+.carrinho-vazio p {
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 20px;
 }
 
 .total-cart p {
-    font-size: 20px;
-    padding-top: 50px; 
+    font-size: 30px;
+    padding-top: 50px;
     font-weight: bold;
 }
+
+
+
+
 
 @media (max-width: 800px) {
     .cart-container .cart {
@@ -99,5 +122,6 @@
 
     .cart-container .cart .cart-data span {
         font-size: 20px;
+
     }
 }

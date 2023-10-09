@@ -17,6 +17,9 @@ const IMAGES = {
     Av7: require('../images/av-7.png'),
     Placa: require('../images/placa-video.png'),
     MemoriaRam: require('../images/memoria-ram.png'),
+    img1: require('../images/img1.jpg'),
+    img2: require('../images/img2.jpg'),
+    img3: require('../images/img3.jpg'),
 
 
 }

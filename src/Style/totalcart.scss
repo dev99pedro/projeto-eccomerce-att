@@ -1,0 +1,19 @@
+.total-cart-value {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    box-shadow: 67px 0px 66px 22px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    padding-bottom: 20px;
+
+
+}
+
+.total-cart-value>p {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #ff7400;
+    
+    width: 313px;
+}

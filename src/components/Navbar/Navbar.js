@@ -7,6 +7,13 @@ const Navbar = () => {
 
     return (
         <div className="navbar">
+            <div className="container-logo">
+                <Link to="/">
+                    <h1 className="logo under">
+                        GALAXY
+                    </h1>
+                </Link>
+            </div>
             <div >
                 <Link to="/" className="navbar-shop">
                     Shop
@@ -14,7 +21,7 @@ const Navbar = () => {
             </div>
             <div >
                 <Link to="/cart" >
-                   <img className="navbar-cart" src={IMAGES.ShopCart} alt="Shopcar"></img>
+                    <img className="navbar-cart" src={IMAGES.ShopCart} alt="Shopcar"></img>
                 </Link>
             </div>
         </div>

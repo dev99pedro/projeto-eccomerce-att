@@ -1,8 +1,11 @@
 @import '../Style/variable.scss';
 
 
+
+
 .product-page {
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .product {
@@ -10,10 +13,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    -webkit-box-shadow: 1px 3px 5px -3px rgba(0, 0, 0, 0.92);
+    -moz-box-shadow: 1px 3px 5px -3px rgba(0, 0, 0, 0.92);
+    box-shadow: 1px 3px 5px -3px rgba(0, 0, 0, 0.92);
 }
 
 .img-container-product {
-    
+
     width: 300px;
     display: flex;
     justify-content: center;
@@ -26,11 +32,12 @@
 
 .name-product h1 {
     font-size: 15px;
+    color: #a4a4eb;
 
 }
 
 .img-product {
-    height: 270px;
+    height: 215px;
     width: auto;
 
 }
@@ -39,7 +46,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    gap: 60px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
 }
@@ -47,6 +54,7 @@
 
 .btn-product {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
 
@@ -60,19 +68,51 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 2px solid #000000;
-    color: red;
-    border-radius: 12px;
+    border: 1px solid #a4a4eb;
+    ;
+    color: #a4a4eb;
+
     font-size: 15px;
     cursor: pointer;
 }
 
 
-.price-text {
-    font-size: 16px;
+.btn-go-cart {
+
+    margin: auto;
+    width: 200px;
+    justify-content: center;
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 12px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #9400FF;
+    background-color: #9400FF;
     color: $white;
+    font-size: 17px;
+    cursor: pointer;
     font-weight: bold;
 
+    &:hover {
+        background-color: #213555;
+    }
+}
+
+.btn-go-cart-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: $white;
+}
+
+
+.price-text {
+    font-size: 14px;
+    color: $red;
+    margin-top: 6px;
 }
 
 .description-product {
@@ -80,9 +120,9 @@
 }
 
 .name-price-product {
-    background-color: gray;
+
     width: 300px;
-    padding-left: 30px;
+    text-align: center;
     padding-bottom: 15px;
 }
 
