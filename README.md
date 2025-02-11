@@ -1,70 +1,57 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo of the project](https://github.com/dev99pedro/portifolio/blob/main/src/components/img/loja.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Eccomerce
+This project is a simple e-commerce platform where you can add multiple products to the shopping cart, remove them, and then view all the selected products on a checkout page. On the checkout page, you'll see the details of each product, including the individual price and the total amount of the purchase.
 
-### `npm start`
+## Technology 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Here are the technologies used in this project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* React.js
+* Sass
+* Context api
 
-### `npm test`
+## Services Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Github
 
-### `npm run build`
+## Getting started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Dependency
+  - Node.js
+  - npm
+  - Sass
+  - Context api
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* To install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+$ npm install
 
-### `npm run eject`
+To run the project:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+$ npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* To install Sass for styling:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+$ npm install sass
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How to use
 
-## Learn More
+* Add to Cart: You can easily add multiple products to your cart.
+* Remove from Cart: If you change your mind, you can remove products from the cart at any time.
+* Checkout Page: After adding the products, you can access a checkout page where all the selected products will be listed.
+* Total Price: The checkout page also displays the individual price of each product and the total sum of all items in the cart.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Initial image](https://github.com/dev99pedro/projeto-eccomerce-att/blob/main/src/images/sddsdaaaaasaaaaads.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Links
+  - App: https://projeto-eccomerce-att.vercel.app/
+  - Repository: https://github.com/dev99pedro/projeto-eccomerce-att/tree/main
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  ## Authors
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  * **Pedro Ascari Azevedo** 
+  Thanks to visiting me and good coding!
