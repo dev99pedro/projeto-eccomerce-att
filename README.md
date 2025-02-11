@@ -49,7 +49,7 @@ $ npm install sass
 
 ## Links
   - App: https://projeto-eccomerce-att.vercel.app/
-  - Repository: https://github.com/dev99pedro/projeto-eccomerce-att/tree/main
+  - Repository: https://github.com/dev99pedro/projeto-eccomerce-att
 
   ## Authors
 
